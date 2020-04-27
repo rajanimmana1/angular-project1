@@ -6,9 +6,10 @@ import { FwModule } from '../fw/fw.module';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 
+
 @NgModule({
   imports:      [ BrowserModule, FormsModule , FwModule ],
-  declarations: [ AppComponent, HelloComponent ],
+  declarations: [ AppComponent, HelloComponent  ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
